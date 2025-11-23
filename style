@@ -1,0 +1,122 @@
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f3e9;
+  color: #222;
+}
+
+
+header {
+  background-color: #555;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+  
+}
+
+header.banner {
+    background: url("images/banner.jpg") center;
+    color: lightgray;
+    text-align: center;
+    padding: 60px 20px;
+    background-size: cover;
+}
+
+nav {
+  background-color: #333;
+  text-align: center;
+  padding: 10px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+div {
+  text-align: center;
+  padding: 25px 15px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+img {
+  width: 250px;
+  height: 160px;
+  object-fit: cover;
+  margin: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+
+
+.services {
+    text-align: center;
+}
+
+.services div {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.two-col {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.two-col div {
+    flex: 1;
+    min-width: 250px;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+
+
+
+.price {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+}
+
+.price th {
+    background-color: #222;
+    font-weight: bold;
+    color: white;
+}
+
+.logo {
+  width: 250px;
+  height: auto;
+  display: block;
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+    .two-col div {
+        width: 100%;
+        display: block;
+    }
+    nav a { display: inline-block;
+            margin: 6px;
+    
+    }
+}
